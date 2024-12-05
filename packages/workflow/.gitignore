@@ -1,6 +1,3 @@
-# Built files
-dist
-
 # Generated version file; always created pre-publish
 src/version.ts
 

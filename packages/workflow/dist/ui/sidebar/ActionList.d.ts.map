@@ -1,0 +1,1 @@
+{"version":3,"file":"ActionList.d.ts","sourceRoot":"","sources":["../../../src/ui/sidebar/ActionList.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,aAAa,CAAC;AAGjD,eAAO,MAAM,UAAU,gBAAiB;IAAE,OAAO,EAAE,kBAAkB,EAAE,CAAA;CAAE,4CAoBxE,CAAA;AAED,eAAO,MAAM,cAAc,wBAAyB;IAAE,MAAM,EAAE,kBAAkB,CAAC;IAAC,OAAO,EAAE,MAAM,IAAI,CAAA;CAAE,4CAMtG,CAAA"}
