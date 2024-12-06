@@ -34,7 +34,7 @@ const useSidebarContent = () => {
         case "action": {
             const workflowAction = selectedNode.data.action;
             const engineAction = availableActions.find((action) => action.kind === workflowAction.kind);
-            return ((0, jsx_runtime_1.jsxs)(jsx_runtime_1.Fragment, { children: [(0, jsx_runtime_1.jsx)(Header_1.SidebarHeader, {}), (0, jsx_runtime_1.jsx)(ActionForm_1.SidebarActionForm, { workflowAction: workflowAction, engineAction: engineAction }), (0, jsx_runtime_1.jsx)(Footer_1.SidebarFooter, {})] }));
+            return ((0, jsx_runtime_1.jsxs)(jsx_runtime_1.Fragment, { children: [(0, jsx_runtime_1.jsx)(Header_1.SidebarHeader, {}), (0, jsx_runtime_1.jsx)(ActionForm_1.SidebarActionForm, { workflowAction: workflowAction, engineAction: engineAction }, `node-${selectedNode.id}`), (0, jsx_runtime_1.jsx)(Footer_1.SidebarFooter, {})] }));
         }
         case "blank": {
             return ((0, jsx_runtime_1.jsx)(ActionList_1.ActionList, { actions: availableActions }));
