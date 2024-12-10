@@ -47,8 +47,8 @@ exports.builtinActions = {
         edges: {
             allowAdd: false,
             edges: [
-                { name: "True", conditional: { type: "if", ref: "!ref($.result)" } },
-                { name: "False", conditional: { type: "else", ref: "!ref($.result)" } },
+                { name: "True", conditional: { type: "if", ref: "!ref($.output.result)" } },
+                { name: "False", conditional: { type: "else", ref: "!ref($.output.result)" } },
             ]
         },
     }

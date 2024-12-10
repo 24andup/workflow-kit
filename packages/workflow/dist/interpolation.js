@@ -57,7 +57,6 @@ function refs(input) {
 function interpolate(value, vars) {
     var _a;
     let result = value;
-    // TODO: Handle $.result
     if (isRef(result)) {
         // Handle pure references immediately.  Remove "!ref(" and ")"
         result = result.replace("!ref(", "");
